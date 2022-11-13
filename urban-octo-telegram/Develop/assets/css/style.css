@@ -50,7 +50,7 @@ header div ul li {
 }
 
 a {
-    color: #ffffff;
+    color: var(--white);
     text-decoration: none;
 }
 
@@ -97,7 +97,7 @@ p {
 /*Grouped all repeating classes to single line*/
 .benefit-lead, .benefit-brand, .benefit-cost {
     margin-bottom: 32px;
-    color: #ffffff;
+    color: var(--white);
 }
 
 .benefit-lead h3, .benefit-brand h3, .benefit-cost h3   {
@@ -117,7 +117,7 @@ p {
     height: 300px;
     font-family: var(--font-family2);
     background-color: #0072bb;
-    color: #ffffff;
+    color: var(--white);
 }
 
 .search-engine-optimization img, .online-reputation-management img, .social-media-marketing img   {
@@ -130,6 +130,7 @@ p {
 }
 
 .footer {
+    display: none;
     padding: 30px;
     clear: both;
     font-family: var(--font-family1);
@@ -137,5 +138,6 @@ p {
 }
 
 .footer h2 {
+    display: none;
     font-size: 20px;
 }
