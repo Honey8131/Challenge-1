@@ -1,4 +1,4 @@
-# Challenge-1
+# HTML CSS Git Challenge: Code Refactor
 
 - Combined code that was similar in a single line
 - Added variables for efficiency, including font-family1 and font-family2, 
